@@ -131,7 +131,6 @@ h2 {
 .project-img {
   width: 100%;
   max-width: 400px;
-  margin-left: 30px;
   margin-bottom: 50px;
 }
 
@@ -143,8 +142,14 @@ h2 {
   }
 }
 
+@media (min-width: 992px) {
+  .projects-box {
+    padding: 0 30px 30px;
+  }
+}
+
 .contact {
-  padding: 30px 0;
+  padding: 10px 0 30px;
   color: var(--color-text-secondary);
   background-color: var(--color-primary);
   text-align: center;
