@@ -40,6 +40,7 @@
   padding: 15px 20px;
 }
 
+/* styles reset */
 * {
   box-sizing: border-box;
 }
@@ -62,6 +63,7 @@ h2 {
   text-align: center;
 }
 
+/* end of styles reset */
 .header {
   display: flex;
   justify-content: center;
@@ -118,15 +120,8 @@ h2 {
 .projects {
   padding: 150px 0;
 }
-.projects .project-img {
-  width: 100vh;
-  max-width: 400px;
-}
 .projects .projects-article {
-  padding: 0 30px 30px;
-}
-.projects .projects-article .projects-box {
-  margin-right: 25px;
+  padding: 30px 15px;
 }
 .projects .projects-article .button-primary {
   margin-right: 15px;
@@ -141,6 +136,11 @@ h2 {
     max-width: 960px;
     margin: 0 auto;
   }
+}
+.projects .projects-article .projects-img {
+  width: 100%;
+  max-width: 495px;
+  border-radius: 5px;
 }
 
 .contact {
