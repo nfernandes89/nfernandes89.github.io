@@ -52,7 +52,7 @@
     text-align: center;
   }
 
-  &:after {
+  &::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -98,7 +98,7 @@
   background-color: $color-primary;
   text-align: center;
 
-  &:before {
+  &::before {
     content: "";
     position: absolute;
     display: block;
