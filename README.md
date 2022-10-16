@@ -6,5 +6,5 @@
 <div align="center">
 <img
             src="./assets/img/neliafernandes-portfolio.png"
-            alt="Nélia's photo"
+            alt="Nélia Fernandes Portfolio"
 </div>
