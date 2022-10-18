@@ -22,6 +22,8 @@
   color: #6608c5;
   background-color: #fff;
   border: 2px solid;
+  display: table;
+  margin: 0 auto;
 }
 .button-secondary:hover {
   color: #6608c5;
@@ -115,7 +117,7 @@ h2 {
   max-width: 360px;
   margin: 30px auto 0;
   padding: 0 5px 15px;
-  box-shadow: 0px 0px 5px;
+  box-shadow: 0px 0px 2px;
   border-radius: 5px;
 }
 .about::after {
@@ -154,7 +156,7 @@ h2 {
   max-width: 495px;
   border-radius: 5px;
 }
-.projects .polygon-after {
+.projects .second-polygon {
   clip-path: polygon(100% 40%, 0% 100%, 100% 100%);
   position: relative;
   height: 200px;

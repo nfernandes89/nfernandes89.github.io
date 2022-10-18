@@ -23,6 +23,8 @@
   color: $color-primary;
   background-color: $color-secondary;
   border: 2px solid;
+  display: table;
+  margin: 0 auto;
 
   &:hover {
     color: $color-primary;
