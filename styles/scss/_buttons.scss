@@ -10,6 +10,7 @@
 
 .button-primary {
   color: $color-primary;
+  background-color: $color-tertiary;
   border: 2px solid $color-primary;
 
   &:hover {
@@ -23,12 +24,10 @@
   color: $color-primary;
   background-color: $color-secondary;
   border: 2px solid;
-  display: table;
-  margin: 0 auto;
 
   &:hover {
     color: $color-primary;
-    background-color: $color-secondary;
+    background-color: $color-tertiary;
     transform: scale(1.2);
   }
 }
@@ -37,6 +36,7 @@
   color: $color-secondary;
   background-color: $color-primary;
   border: 2px solid $color-primary;
+  margin-bottom: 15px;
 
   &:hover {
     color: $color-primary;

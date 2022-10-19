@@ -50,6 +50,16 @@
     margin: 0 30px;
   }
 
+  .button-secondary {
+    color: $color-primary;
+    background-color: $color-secondary;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    width: 136px;
+    margin: 15px auto;
+  }
+
   .about-quote {
     color: $color-secondary;
     text-align: center;
@@ -74,18 +84,17 @@
 }
 
 .projects {
-  padding: 200px 0 0;
+  padding: 180px 0 0;
+
+  .projects-box {
+    margin: 0 15px 15px;
+  }
 
   .projects-article {
     padding: 30px 15px;
 
     .button-primary {
       margin-right: 15px;
-      margin-bottom: 15px;
-    }
-
-    h3 {
-      font-weight: 500;
     }
 
     @media (min-width: 992px) {
@@ -103,7 +112,6 @@
 
   .second-polygon {
     clip-path: polygon(100% 40%, 0% 100%, 100% 100%);
-    position: relative;
     height: 200px;
     left: 0;
     right: 0;

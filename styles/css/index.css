@@ -10,6 +10,7 @@
 
 .button-primary {
   color: #6608c5;
+  background-color: #f6edfe;
   border: 2px solid #6608c5;
 }
 .button-primary:hover {
@@ -22,12 +23,10 @@
   color: #6608c5;
   background-color: #fff;
   border: 2px solid;
-  display: table;
-  margin: 0 auto;
 }
 .button-secondary:hover {
   color: #6608c5;
-  background-color: #fff;
+  background-color: #f6edfe;
   transform: scale(1.2);
 }
 
@@ -35,6 +34,7 @@
   color: #fff;
   background-color: #6608c5;
   border: 2px solid #6608c5;
+  margin-bottom: 15px;
 }
 .button-tertiary:hover {
   color: #6608c5;
@@ -66,6 +66,10 @@ h2 {
   font-weight: 500;
   line-height: 1.4;
   text-align: center;
+}
+
+h3 {
+  font-weight: 500;
 }
 
 .header {
@@ -110,6 +114,15 @@ h2 {
 .about .about-description {
   margin: 0 30px;
 }
+.about .button-secondary {
+  color: #6608c5;
+  background-color: #fff;
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  width: 136px;
+  margin: 15px auto;
+}
 .about .about-quote {
   color: #fff;
   text-align: center;
@@ -132,17 +145,16 @@ h2 {
 }
 
 .projects {
-  padding: 200px 0 0;
+  padding: 180px 0 0;
+}
+.projects .projects-box {
+  margin: 0 15px 15px;
 }
 .projects .projects-article {
   padding: 30px 15px;
 }
 .projects .projects-article .button-primary {
   margin-right: 15px;
-  margin-bottom: 15px;
-}
-.projects .projects-article h3 {
-  font-weight: 500;
 }
 @media (min-width: 992px) {
   .projects .projects-article {
@@ -158,7 +170,6 @@ h2 {
 }
 .projects .second-polygon {
   clip-path: polygon(100% 40%, 0% 100%, 100% 100%);
-  position: relative;
   height: 200px;
   left: 0;
   right: 0;
