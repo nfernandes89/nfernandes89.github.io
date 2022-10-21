@@ -110,12 +110,14 @@
     border-radius: 5px;
   }
 
-  .second-polygon {
+  &::after {
+    content: "";
     clip-path: polygon(100% 40%, 0% 100%, 100% 100%);
+    background: #6608c5;
+    display: block;
     height: 200px;
     left: 0;
     right: 0;
-    background: #6608c5;
   }
 }
 

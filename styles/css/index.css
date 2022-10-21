@@ -68,10 +68,6 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  font-weight: 500;
-}
-
 .header {
   display: flex;
   justify-content: center;
@@ -168,12 +164,14 @@ h3 {
   max-width: 495px;
   border-radius: 5px;
 }
-.projects .second-polygon {
+.projects::after {
+  content: "";
   clip-path: polygon(100% 40%, 0% 100%, 100% 100%);
+  background: #6608c5;
+  display: block;
   height: 200px;
   left: 0;
   right: 0;
-  background: #6608c5;
 }
 
 .contact {
