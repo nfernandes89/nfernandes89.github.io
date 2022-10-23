@@ -77,14 +77,14 @@
     background: #6608c5;
     position: absolute;
     display: block;
-    height: 200px;
+    height: 100px;
     left: 0;
     right: 0;
   }
 }
 
 .projects {
-  padding: 180px 0 0;
+  padding: 120px 0 10px;
 
   .projects-box {
     margin: 0 15px 15px;
@@ -109,24 +109,27 @@
     max-width: 495px;
     border-radius: 5px;
   }
+}
 
-  &::after {
+.contact {
+  position: relative;
+  padding: 5px 10px 55px 10px;
+  margin: 100px auto 0;
+  color: #fff;
+  background-color: #6608c5;
+  text-align: center;
+
+  &::before {
     content: "";
     clip-path: polygon(100% 40%, 0% 100%, 100% 100%);
     background: #6608c5;
     display: block;
-    height: 200px;
-    left: 0;
+    height: 100px;
+    top: -99px;
     right: 0;
+    position: absolute;
+    width: 100%;
   }
-}
-
-.contact {
-  padding: 5px 10px 55px 10px;
-  margin: 0 auto;
-  color: $color-text-secondary;
-  background-color: $color-primary;
-  text-align: center;
 }
 
 .footer {
